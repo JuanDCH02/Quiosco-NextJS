@@ -1,5 +1,6 @@
 import OrderSidebar from "@/components/order/OrderSidebar";
 import OrderSummary from "@/components/order/OrderSummary";
+import ToastNotification from "@/components/ui/ToastNotification";
 
 
 export const dynamic = 'force-dynamic'
@@ -12,6 +13,7 @@ export default function OrderLayout({ children }: Readonly<{ children: React.Rea
                 {children}
             </main>
             <OrderSummary/>
+            <ToastNotification/>
         </div>
     </>
     )
