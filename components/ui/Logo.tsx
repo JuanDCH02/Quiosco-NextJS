@@ -9,6 +9,7 @@ export default function Logo() {
                     fill 
                     alt="logotipo image"
                     src='/logo.svg'
+                    priority={true}
                 />
 
             </div>
