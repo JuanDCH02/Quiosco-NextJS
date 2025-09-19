@@ -7,7 +7,7 @@ import { Slide, ToastContainer } from 'react-toastify'
 export default function ToastNotification() {
     return (
         <ToastContainer
-            position='bottom-left'
+            position='top-left'
             hideProgressBar
             theme='colored'
             transition={Slide}

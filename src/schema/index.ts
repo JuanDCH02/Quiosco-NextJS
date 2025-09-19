@@ -17,3 +17,9 @@ export const OrderSchema = z.object({
 export const OrderId = z.object({
     orderId: z.number()
 })
+
+export const SearchSchema = z.object({
+    search: z.string()
+        .trim()
+        .min(1, {message: 'Busqueda vacia'})
+})
